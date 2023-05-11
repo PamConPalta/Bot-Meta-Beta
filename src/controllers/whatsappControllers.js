@@ -5,7 +5,7 @@ const myConsole = new console.Console(fs.createWriteStream("./logs.txt"))
 export const VerifyToken = (req, res) => {
 
     try {
-        var accessToken = "VABJSDJAS234EASDASD"
+        var accessToken = "VABJSDJAS234EASDASDA"
         var token = req.query["hub_verify_token"]
         var challenge = req.query["hub.challenge"]
 
